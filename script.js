@@ -5,7 +5,7 @@ document.getElementById('check').addEventListener('click', check)
 let age = 0
 let weekday = 0
 
-// This is what checks if you can get the discount
+// This is what checks your age and what day of the week it is to see your schedule
 function check () {
   age = document.getElementById('age').value
   weekday = document.getElementById('weekday').value
